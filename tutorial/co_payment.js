@@ -7,8 +7,8 @@
 
    Payment Form Script
    
-   Author: 
-   Date:   
+   Author: Jorge Collazo
+   Date:   5-13-20
    
    Filename: co_payment.js
    
@@ -44,3 +44,7 @@
 
 */
 
+window.addEventListener("load", function(){
+   //Retieve the field/value pairs from the URL
+   var formData = location.search.slice(1);
+});
